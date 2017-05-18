@@ -1,0 +1,36 @@
+.navbar-default {
+	background-color: lightblue;
+}
+.navbar-default .navbar-nav>li>a { 
+	color: white; 
+	background-color: lightblue;
+}
+
+.navbar-default .navbar-nav>.active>a { 
+	color: white; 
+	background-color: lightblue;
+}
+.navbar-default .navbar-brand { 
+	font-style: italic; 
+	color:white; 
+	font-family: Comic; 
+	font-style: bold; 
+	font-size: 34px; 
+	font-weight: 900
+}
+
+
+body  {
+	background-color: lightblue;
+	background-attachment: fixed;
+	background-size: cover;
+    -webkit-align-self: center;
+    align-self: center;
+}
+
+.center-container {
+	width: 70%;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 100px;
+}

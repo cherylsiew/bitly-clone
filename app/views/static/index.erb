@@ -1,2 +1,27 @@
-<h1>Hello World</h1>
-<p>See Me in views/static/index.html.erb</p>
+<h1 style="color: white; align-self: center;">THE LINK KNOWS ALL. SO CAN YOU.</h1>
+<!-- <p>See Me in views/static/index.html.erb</p> -->
+<p style="color: white; font-size: 18px; align-self: center;">Measure your links with Bitly, the world's leading link management platform</p>
+<style>
+	form{align-self: center; color: white;}
+</style>
+
+<form action ="/create_url" method ="post">
+Enter URL:
+<input type="text" name="long_url" value="<%= @url.long_url if @url %>">
+<input type="text" value="<%= 'localhost:9393/'+ @url.short_url if @url %>">
+<input type="submit" value="Shorten">
+</form>
+
+<style>
+	input[type="submit"] {
+		background-color: #FF8C00;
+		color: white;
+		width: 90px;
+		height: 40px;
+	}
+	input[type="text"] {
+		background-color: white;
+		width: 160px;
+		height: 40px;
+	}
+</style>
